@@ -3,7 +3,7 @@ import NavBar from "./components/Nav/NavBar";
 const App = () => {
   return (
     <>
-      <section className="h-screen snap-center">
+      <section className="h-screen snap-center" id="Home">
         <NavBar />
       </section>
       <section className="h-screen  snap-center">Hehe</section>

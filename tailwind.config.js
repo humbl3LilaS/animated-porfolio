@@ -4,7 +4,11 @@ export default {
   theme: {
     extend: {
       maxWidth: {
-        desktop: "1366px",
+        desktop: "1124px",
+        lgDesktop: "1366px",
+      },
+      width: {
+        sideNav: "400px",
       },
     },
   },
