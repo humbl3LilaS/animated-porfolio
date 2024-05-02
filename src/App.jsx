@@ -1,3 +1,4 @@
+import Hero from "./components/Hero";
 import NavBar from "./components/Nav/NavBar";
 
 const App = () => {
@@ -5,6 +6,7 @@ const App = () => {
     <>
       <section className="h-screen snap-center" id="Home">
         <NavBar />
+        <Hero />
       </section>
       <section className="h-screen  snap-center">Hehe</section>
       <section className="h-screen snap-center">Hehe</section>
