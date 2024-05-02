@@ -2,10 +2,13 @@ import { motion } from "framer-motion";
 
 export default function ToggleBtn({ handler }) {
   return (
-    <button
+    <motion.button
       onClick={handler}
       className="w-[50px] h-[50px] fixed top-6 left-6 bg-transparent border-none z-[100] flex justify-center items-center"
       type="button"
+      initial={{ opacity: 0, scale: 1 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.5, delay: 0.5 }}
     >
       <svg width="23" height="23" viewBox="0 0 23 23">
         <motion.path
@@ -37,6 +40,6 @@ export default function ToggleBtn({ handler }) {
           }}
         />
       </svg>
-    </button>
+    </motion.button>
   );
 }

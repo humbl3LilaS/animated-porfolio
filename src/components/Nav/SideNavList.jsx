@@ -42,7 +42,11 @@ const itemVariants = {
 
 function SideNavItem({ item }) {
   return (
-    <motion.li variants={itemVariants}>
+    <motion.li
+      variants={itemVariants}
+      whileHover={{ scale: 1.1 }}
+      whileTap={{ scale: 0.95 }}
+    >
       <a href={`#${item}`} className="text-4xl">
         {item}
       </a>

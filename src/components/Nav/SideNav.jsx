@@ -39,7 +39,7 @@ export default function SideNav() {
         className="w-sideNav fixed top-0 left-0 bottom-0 bg-white z-50"
         variants={sideNavVariant}
       >
-        <SideNavList isOpen={open} />
+        <SideNavList />
       </motion.div>
       <ToggleBtn handler={btnHandler} />
     </motion.div>
