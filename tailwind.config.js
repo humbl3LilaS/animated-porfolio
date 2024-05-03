@@ -11,12 +11,14 @@ export default {
       width: {
         sideNav: "400px",
         desktop: "1124px",
+        services: "300px",
       },
       height: {
         hero: "calc(100vh - 100px)",
+        services: "80px",
       },
       backgroundImage: {
-        hero: "linear-gradient(180deg, #0c0c1d, #111132)",
+        primary: "linear-gradient(180deg, #0c0c1d, #111132)",
         services: "linear-gradient(180deg, #111132, #0c0c1d)",
         projects: "linear-gradient(180deg, #111132, #505064)",
         mountains: "url('/public/mountains.png')",
@@ -30,6 +32,9 @@ export default {
       },
       letterSpacing: {
         "hero-header": "8px",
+      },
+      borderRadius: {
+        services: "50px",
       },
     },
   },
