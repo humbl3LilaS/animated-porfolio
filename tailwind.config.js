@@ -16,11 +16,17 @@ export default {
         hero: "calc(100vh - 100px)",
       },
       backgroundImage: {
-        hero: "linear-gradient(180deg, #0c0c12, #111132)",
+        hero: "linear-gradient(180deg, #0c0c1d, #111132)",
+        services: "linear-gradient(180deg, #111132, #0c0c1d)",
+        projects: "linear-gradient(180deg, #111132, #505064)",
+        mountains: "url('/public/mountains.png')",
+        planets: "url('/public/planets.png')",
+        stars: "url('/public/stars.png')",
+        sun: "url('/public/sun.png')",
       },
       textColor: {
         headerHero: "rebeccapurple",
-        "moving-text" : "#ffffff09"
+        "moving-text": "#ffffff09",
       },
       letterSpacing: {
         "hero-header": "8px",

@@ -19,7 +19,7 @@ export default function SideNavList() {
 
   return (
     <motion.ul
-      className="absolute w-full h-full flex flex-col items-center justify-center gap-y-5"
+      className="absolute w-full h-full flex flex-col items-center justify-center gap-y-5 z-[999]"
       variants={listVariant}
     >
       {ITEMS.map((item) => (

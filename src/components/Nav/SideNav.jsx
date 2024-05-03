@@ -36,7 +36,7 @@ export default function SideNav() {
       animate={open ? "open" : "closed"}
     >
       <motion.div
-        className="w-sideNav fixed top-0 left-0 bottom-0 bg-white z-50"
+        className="w-sideNav fixed top-0 left-0 bottom-0 bg-white z-[99]"
         variants={sideNavVariant}
       >
         <SideNavList />
