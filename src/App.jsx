@@ -1,6 +1,7 @@
 import Hero from "./components/Hero/Hero";
 import NavBar from "./components/Nav/NavBar";
 import Parallax from "./components/Parallax/Parallax";
+import Portfolio from "./components/Portfolio/Portfolio";
 import Services from "./components/Services/Services";
 
 const App = () => {
@@ -19,10 +20,7 @@ const App = () => {
       <section className="h-screen snap-center">
         <Parallax isService={false} />
       </section>
-      <section className="h-screen snap-center">
-        hehe
-      </section>
-      
+      <Portfolio />
     </>
   );
 };
