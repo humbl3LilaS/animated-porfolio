@@ -1,3 +1,4 @@
+import Contact from "./components/Contact/Contact";
 import Hero from "./components/Hero/Hero";
 import NavBar from "./components/Nav/NavBar";
 import Parallax from "./components/Parallax/Parallax";
@@ -14,13 +15,16 @@ const App = () => {
       <section className="h-screen  snap-center">
         <Parallax isService={true} />
       </section>
-      <section className="h-screen  snap-center">
+      <section className="h-screen  snap-center" id="Services">
         <Services />
       </section>
       <section className="h-screen snap-center">
         <Parallax isService={false} />
       </section>
       <Portfolio />
+      <section className="h-screen flex justify-center items-center  snap-center">
+        <Contact />
+      </section>
     </>
   );
 };

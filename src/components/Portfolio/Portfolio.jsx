@@ -40,7 +40,7 @@ export default function Portfolio() {
   const scaleX = useSpring(scrollYProgress, { stiffness: 100, damping: 30 });
 
   return (
-    <div ref={ref} className={"relative"}>
+    <div ref={ref} className={"relative"} id="Portfolio">
       <ProgressBar animation={scaleX} />
       {items.map((item) => (
         <PortfolioItem data={item} key={item.title} />
