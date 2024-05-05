@@ -4,7 +4,7 @@ export default function ToggleBtn({ handler }) {
   return (
     <motion.button
       onClick={handler}
-      className="w-[50px] h-[50px] fixed top-6 left-6 bg-transparent border-none z-[100] flex justify-center items-center"
+      className="w-[50px] h-[50px] fixed top-6 left-6 bg-transparent border-none z-[100] flex justify-center items-center "
       type="button"
       initial={{ opacity: 0, scale: 1 }}
       animate={{ opacity: 1 }}

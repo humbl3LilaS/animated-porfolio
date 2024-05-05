@@ -62,7 +62,8 @@ export default function HeroInfo() {
           <motion.img
             src="../../public/scroll.png"
             alt="image of a mouse scrolling"
-            variants={textVariant} animate="scrollBtn"
+            variants={textVariant}
+            animate="scrollBtn"
           />
         </motion.div>
       </motion.div>

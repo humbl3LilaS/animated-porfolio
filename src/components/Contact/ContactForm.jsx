@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import FormImage from "../../../public/form.svg";
 
 const submitBtnVariants = {
   initial: {
