@@ -4,7 +4,7 @@ import MovingText from "./MovingText";
 
 export default function Hero() {
   return (
-    <div className="h-hero relative overflow-hidden bg-primary">
+    <div className="h-hero  overflow-hidden bg-primary">
       <HeroInfo />
       <HeroImage />
       <MovingText />

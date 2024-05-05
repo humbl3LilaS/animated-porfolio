@@ -18,7 +18,7 @@ export default function MovingText() {
   return (
     <motion.p
       className={
-        "w-1/2 absolute bottom-0 text-[50vh] leading-[1]  whitespace-nowrap text-moving-text"
+        "w-1/2 absolute bottom-0 text-[30vh] md:text-[50vh] leading-[1]  whitespace-nowrap text-moving-text"
       }
       variants={sliderVariant}
       initial="initial"

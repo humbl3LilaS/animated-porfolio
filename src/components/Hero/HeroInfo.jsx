@@ -32,7 +32,9 @@ export default function HeroInfo() {
       animate="animate"
     >
       <motion.div
-        className={"h-full flex flex-col justify-center gap-y-9"}
+        className={
+          "max-w-[80%] mx-auto h-full flex flex-col justify-center gap-y-9"
+        }
         variants={textVariant}
       >
         <motion.h2
@@ -41,12 +43,15 @@ export default function HeroInfo() {
         >
           Super Edelweiss
         </motion.h2>
-        <motion.p className={"max-w-[40%] text-[60px]"} variants={textVariant}>
+        <motion.p
+          className={"max-w-[40%] text-3xl  lg:text-[60px]"}
+          variants={textVariant}
+        >
           Junior Web Developer
         </motion.p>
         <motion.div variants={textVariant}>
           <motion.button
-            className="p-5 border-2 border-white bg-transparent rounded-lg mr-8"
+            className="p-5 mb-4 border-2 border-white bg-transparent rounded-lg mr-8 md:mb-0"
             variants={textVariant}
           >
             See the Latest Works

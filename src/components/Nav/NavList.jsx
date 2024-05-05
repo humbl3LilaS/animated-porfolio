@@ -11,7 +11,7 @@ export default function NavList() {
     },
   };
   return (
-    <nav className="w-1/2 max-w-desktop h-3/5 mt-4  ml-auto flex flex-col items-center justify-between md:w-[unset] md:flex-row md:mt-0 md:h-full">
+    <nav className="w-1/2  h-3/5 mt-4  ml-auto flex flex-col items-center justify-between md:w-[unset] md:flex-row md:mt-0 md:h-full md:mx-auto md:max-w-[70%]  lg:max-w-desktop">
       <motion.h1
         className="font-bold text-xl mb-3 md:mb-0"
         variants={headerVariant}
